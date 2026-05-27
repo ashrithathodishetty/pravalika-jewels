@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Pravalika Jewels</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+        href="style.css">
+
+    <!-- GOOGLE FONTS -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+
+        <!-- VIDEO SLIDER -->
+
+        <div class="video-slider">
+
+            <video class="bg-video active"
+                autoplay
+                muted
+                loop
+                playsinline>
+
+                <source src="videos/minimal.mp4"
+                    type="video/mp4">
+
+            </video>
+
+            <video class="bg-video"
+                autoplay
+                muted
+                loop
+                playsinline>
+
+                <source src="videos/rings video.mp4"
+                    type="video/mp4">
+
+            </video>
+
+            <video class="bg-video"
+                autoplay
+                muted
+                loop
+                playsinline>
+
+                <source src="videos/jewel.mp4"
+                    type="video/mp4">
+
+            </video>
+
+        </div>
+
+        <!-- OVERLAY -->
+
+        <div class="overlay"></div>
+
+        <!-- NAVBAR -->
+
+        <nav>
+
+            <!-- LOGO -->
+
+            <div class="logo">
+
+                <img src="images/logo.png"
+                    alt=""
+                    class="logo-img">
+
+                <div class="logo-text">
+
+                    <h2>Pravalika Jewels</h2>
+
+                    <p>EST. 2005 • Luxury Jewellery</p>
+
+                </div>
+
+            </div>
+
+            <!-- NAV LINKS -->
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#collections">Collections</a></li>
+
+                <li><a href="#reviews">Reviews</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li>
+
+                    <a href="https://wa.me/919652791403?text=Hello%20Pravalika%20Jewels,%20I%20am%20interested%20in%20your%20jewellery%20collections"
+                        target="_blank">
+
+                        Contact
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+            <!-- WHATSAPP BUTTON -->
+
+            <a href="https://wa.me/919652791403?text=Hello%20Pravalika%20Jewels,%20I%20wanted%20to%20order%20jewellery"
+                class="whatsapp-btn"
+                target="_blank">
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+                WhatsApp Us
+
+            </a>
+
+        </nav>
+
+        <!-- HERO SLIDER -->
+
+        <div class="slider">
+
+            <!-- SLIDE 1 -->
+
+            <div class="slide active">
+
+                <span class="tagline">
+
+                    EST. 2005 • PURE ELEGANCE
+
+                </span>
+
+                <h1>
+
+                    Timeless <br>
+                    Gold Elegance
+
+                </h1>
+
+                <p>
+
+                    Every jewel tells a story of artistry,
+                    grace and everlasting beauty.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="primary-btn"
+                        onclick="scrollToSection('gold')">
+
+                        Discover Collection
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- SLIDE 2 -->
+
+            <div class="slide">
+
+                <span class="tagline">
+
+                    EXCLUSIVE DIAMOND COLLECTION
+
+                </span>
+
+                <h1>
+
+                    Crafted <br>
+                    For Royalty
+
+                </h1>
+
+                <p>
+
+                    Handcrafted jewellery inspired by
+                    elegance, tradition and luxury.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="primary-btn"
+                        onclick="scrollToSection('diamond')">
+
+                        Explore Diamonds Collection
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- SLIDE 3 -->
+
+            <div class="slide">
+
+                <span class="tagline">
+
+                    LUXURY WEDDING COLLECTION
+
+                </span>
+
+                <h1>
+
+                    Bridal <br>
+                    Perfection
+
+                </h1>
+
+                <p>
+
+                    Celebrate your timeless moments
+                    with handcrafted bridal jewels.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="primary-btn"
+                        onclick="scrollToSection('bridal')">
+
+                         Explore Wedding Collection
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+    <!-- FLOATING CARDS -->
+
+    <div class="floating-card card1">
+
+        <img src="images/rings.jpeg"
+            alt="">
+
+        <h3>Diamond Rings</h3>
+
+    </div>
+
+    <div class="floating-card card2">
+
+        <img src="images/earrings.jpeg"
+            alt="">
+
+        <h3>Luxury Earrings</h3>
+
+    </div>
+
+    <div class="floating-card card3">
+
+        <img src="images/necklace.jpeg"
+            alt="">
+
+        <h3>Royal Necklaces</h3>
+
+    </div>
+
+    </section>
+
+    <!-- COLLECTIONS SECTION -->
+
+    <section class="collections-section"
+        id="collections">
+
+        <!-- TITLE -->
+
+        <div class="section-title">
+
+            <span>---OUR COLLECTIONS---</span>
+
+            <h2>Signature Jewellery Collections</h2>
+
+        </div>
+
+        <!-- GRID -->
+
+        <div class="collections-grid">
+
+            <!-- GOLD -->
+
+            <div class="collection-card"
+                id="gold">
+
+                <img src="images/rings1.jpeg"
+                    alt="">
+
+                <div class="collection-content">
+
+                    <h3>Gold Collection</h3>
+
+                    <p>
+
+                        Elegant handcrafted gold jewellery
+                        with timeless beauty and luxury.
+
+                    </p>
+
+                    <button onclick="openCollection('gold')">
+
+                        Explore Collection
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- DIAMOND -->
+
+            <div class="collection-card"
+                id="diamond">
+
+                <img src="images/necklace1.jpeg"
+                    alt="">
+
+                <div class="collection-content">
+
+                    <h3>Diamond Collection</h3>
+
+                    <p>
+
+                        Premium diamond jewellery crafted
+                        with royal elegance and brilliance.
+
+                    </p>
+
+                    <button onclick="openCollection('diamond')">
+
+                        Explore Collection
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- BRIDAL -->
+
+            <div class="collection-card"
+                id="bridal">
+
+                <img src="images/BridalSet.jpg"
+                    alt="">
+
+                <div class="collection-content">
+
+                    <h3>Bridal Collection</h3>
+
+                    <p>
+
+                        Luxury bridal jewellery designed
+                        for timeless weddings.
+
+                    </p>
+
+                    <button onclick="openCollection('bridal')">
+
+                        Explore Collection
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ABOUT SECTION -->
+
+    <section class="about-section" id="about">
+
+        <div class="about-content">
+
+            <span>---OUR STORY---</span>
+
+            <h2>Crafting Timeless Luxury Jewellery</h2>
+
+            <p>
+
+                Pravalika Jewels creates elegant handcrafted jewellery
+                blending tradition with modern luxury. Every piece is
+                designed with precision, beauty and premium craftsmanship
+                to celebrate timeless elegance.
+
+            </p>
+
+            <p>
+
+                From bridal collections to diamond masterpieces,
+                our jewellery reflects royalty, sophistication
+                and everlasting memories. Every piece is designed to celebrate confidence, grace, and individuality.
+                We combine traditional artistry with modern luxury to create jewellery
+                that makes every occasion unforgettable.
+
+            </p>
+
+            <p>
+
+                At Pravalika Jewels, we believe jewellery is more than an accessory —
+                it is a reflection of beauty, emotion, tradition, and timeless memories.
+                Our collections are carefully handcrafted with luxurious detailing,
+                premium craftsmanship, and elegant modern designs.
+
+            </p>
+
+            <p>
+                We are committed to providing an exceptional customer experience,
+                offering personalized service, and creating jewellery that celebrates
+                life's most precious moments with timeless elegance and luxury.
+            </p>
+            <div class="about-features">
+
+                <div class="feature-box">
+
+                    <h3>20+</h3>
+
+                    <p>Years Experience</p>
+
+                </div>
+
+                    <div class="feature-box">
+
+                        <h3>2500+</h3>
+
+                        <p>Happy Customers</p>
+
+                    </div>
+
+                    <div class="feature-box">
+
+                        <h3>100%</h3>
+
+                        <p>Premium Quality</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- RIGHT SIDE IMAGE -->
+
+        <div class="about-image">
+
+            <img src="images/About.jpg" alt="Luxury Jewellery">
+
+        </div>
+
+    </section>
+    <!-- PREMIUM TESTIMONIAL SECTION -->
+
+    <section class="premium-testimonial-section" id="reviews">
+            <div class="section-title">
+    
+                <span>---CLIENT REVIEWS---</span>
+    
+                <h2>What Our Customers Say</h2>
+    
+            </div>
+
+    <!-- TOP REVIEWS -->
+
+    <div class="premium-review-container">
+
+        <div class="premium-review-card">
+
+            <div class="review-user">
+
+                <div class="review-icon">P</div>
+
+                <div>
+
+                    <h3>Priya Reddy</h3>
+
+                    <p>Jubilee Hills, Hyderabad</p>
+
+                </div>
+
+            </div>
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p class="review-text">
+
+                Absolutely loved the jewellery quality and elegant finishing.
+
+            </p>
+
+        </div>
+
+        <div class="premium-review-card">
+
+            <div class="review-user">
+
+                <div class="review-icon">S</div>
+
+                <div>
+
+                    <h3>Sneha Sharma</h3>
+
+                    <p>Kondapur, Hyderabad</p>
+
+                </div>
+
+            </div>
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p class="review-text">
+
+                Premium bridal collection with luxurious craftsmanship.
+
+            </p>
+
+        </div>
+
+        <div class="premium-review-card">
+
+            <div class="review-user">
+
+                <div class="review-icon">R</div>
+
+                <div>
+
+                    <h3>Swathi Priya</h3>
+
+                    <p>Gachibowli, Hyderabad</p>
+
+                </div>
+
+            </div>
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p class="review-text">
+
+                Elegant designs with excellent customer support experience.
+
+            </p>
+
+        </div>
+        <div class="premium-review-card">
+
+            <div class="review-user">
+
+                <div class="review-icon">A</div>
+
+                <div>
+
+                    <h3>Ananya Verma</h3>
+
+                    <p>Hitech City, Hyderabad</p>
+
+                </div>
+
+            </div>
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p class="review-text">
+
+                The diamond collection is truly exquisite and luxurious.
+
+            </p>
+
+        </div>
+        <div class="premium-review-card">
+
+            <div class="review-user">
+
+                <div class="review-icon">M</div>
+
+                <div>
+
+                    <h3>Manisha Gupta</h3>
+
+                    <p>Begumpet, Hyderabad</p>
+
+                </div>
+
+            </div>
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p class="review-text">
+
+                High-quality craftsmanship and stunning jewellery pieces.
+
+            </p>
+            </div>
+            <div class="premium-review-card">   
+                <div class="review-user">
+
+                    <div class="review-icon">V</div>
+
+                    <div>
+
+                        <h3>Ramya Vikram Singh</h3>
+
+                        <p>Secunderabad, Hyderabad</p>
+
+                    </div> 
+                </div>
+                <div class="stars">
+                    ★★★★★
+                </div>
+                <p class="review-text">
+
+                    Exceptional customer service and beautiful designs.
+                </p>
+                </div>
+
+
+    </div>
+
+    <!-- BOTTOM STATS -->
+
+    <div class="testimonial-stats">
+
+        <div class="stat-box">
+
+            <h2>4.9</h2>
+
+            <div class="stat-stars">
+                ★★★★★
+            </div>
+
+            <p>Average Rating</p>
+
+        </div>
+
+        <div class="stat-divider"></div>
+
+        <div class="stat-box">
+
+            <h2>2.5K+</h2>
+
+            <span>REVIEWS</span>
+
+            <p>Verified Customers</p>
+
+        </div>
+
+        <div class="stat-divider"></div>
+
+        <div class="stat-box">
+
+            <h2>97%</h2>
+
+            <span>RECOMMENDED</span>
+
+            <p>Would Return</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+    </section>
+    <!-- CONTACT SECTION -->
+
+    <section class="contact-section" id="contact">
+
+        <div class="section-title">
+
+            <span>---CONTACT US---</span>
+
+            <h2>For More Enquiries</h2>
+
+        </div>
+
+            <form class="contact-form">
+
+                <input type="text"
+                    placeholder="Your Name">
+
+                <input type="email"
+                    placeholder="Your Email">
+
+                <input type="text"
+                    placeholder="Your Location">
+
+                <textarea
+                    placeholder="Your Message"></textarea>
+
+                <button type="submit">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- PRODUCT POPUP -->
+
+    <div class="product-popup"
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- PRODUCT POPUP -->
+
+    <div class="product-popup"
+        id="productPopup">
+
+        <!-- POPUP BOX -->
+
+        <div class="popup-box">
+
+            <!-- CLOSE BUTTON -->
+
+            <span class="close-popup"
+                onclick="closePopup()">
+
+                &times;
+
+            </span>
+
+            <!-- TITLE -->
+
+            <h2 id="popupHeading"></h2>
+
+            <!-- PRODUCTS -->
+
+            <div class="popup-products"
+                id="popupProducts">
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- FOOTER SECTION -->
+
+    <footer class="footer-section" id="contact">
+
+        <div class="footer-container">
+
+            <!-- LEFT -->
+
+            <div class="footer-about">
+
+                <div class="footer-logo">
+
+                    <img src="images/logo.png" alt="Logo">
+
+                <div>
+
+                    <h2>Pravalika Jewels</h2>
+
+                    <p>EST. 2005 • HYDERABAD</p>
+
+                </div>
+
+            </div>
+
+            <p class="footer-description">
+
+                Where elegance meets timeless luxury.
+                Pravalika Jewels crafts premium handcrafted jewellery
+                with royal artistry, modern sophistication,
+                and unforgettable beauty.
+
+            </p>
+
+            <!-- SOCIAL ICONS -->
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+                <a href="https://wa.me/919652791403"
+                   target="_blank">
+
+                    <i class="fab fa-whatsapp"></i>
+
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- CENTER -->
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <a href="#">Home</a>
+
+            <a href="#collections">Collections</a>
+
+            <a href="#about">About</a>
+
+            <a href="#reviews">Reviews</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <!-- RIGHT -->
+
+        <div class="footer-contact">
+
+            <h3>Reach Us</h3>
+
+            <p>+91 9652791403</p>
+
+            <p>pravalikapatel1403@gmail.com</p>
+
+            <p>
+                Hyderabad, Telangana <br>
+                India
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Pravalika Jewels. All Rights Reserved.
+        </p>
+
+        <span>
+            Crafted with Luxury & Elegance
+        </span>
+
+    </div>
+
+</footer>
+
+    <!-- JS -->
+
+    <script src="script.js"></script>
+
+</body>
+
+
+
+</html>
